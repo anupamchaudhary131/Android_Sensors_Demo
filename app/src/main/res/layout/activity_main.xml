@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensors In Android"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_margin="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnAccelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Accelerometer Sensor"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"
+            android:layout_margin="20dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnProximity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Proximity Sensor"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"
+            android:layout_margin="20dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnAmbient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Ambient Light Sensor"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"
+            android:layout_margin="20dp"
+            android:padding="10dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
